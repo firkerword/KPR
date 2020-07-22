@@ -116,7 +116,7 @@ update_rules() {
                  wget 'https://houzi-.coding.net/p/my_dream/d/my_dream/git/raw/master/koolproxy.txt' -q -O $KP_DIR/data/rules/koolproxy.txt
 	         wget 'https://raw.githubusercontent.com/ycg31/KoolProxy/master/rules/yhosts.txt' -q -O $KP_DIR/data/rules/yhosts.txt
                  wget 'https://raw.githubusercontent.com/ycg31/KoolProxy/master/rules/fanboy.txt' -q -O $KP_DIR/data/rules/fanboy.txt
-	         wget 'https://raw.githubusercontent.com/ycg31/KoolProxy/master/rules/easylistchina.txt' -q -O $KP_DIR/data/rules/easylistchina.txt
+	         wget 'https://easylist-downloads.adblockplus.org/easylistchina.txt' -q -O $KP_DIR/data/rules/easylistchina.txt
                  wget 'https://gitee.com/privacy-protection-tools/anti-ad/raw/master/anti-ad-for-dnsmasq.conf' -q -O $KP_DIR/data/rules/AdGuardHome.txt
                  wget 'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt' -q -O $KP_DIR/data/rules/mv.txt
 	         wget 'https://raw.githubusercontent.com/firkerword/ADB/master/koolproxy_ipset.conf' -q -O $KP_DIR/koolproxy_ipset.conf
