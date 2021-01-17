@@ -30,7 +30,7 @@ git clone https://github.com/ITdesk01/JD_Script.git JDScript
 	#京东赚赚长期活动
         new_jdzz="95OquUc_sFugJO5_E_2dAgm-@eU9YELv7P4thhw6utCVw@eU9YaOjnbvx1-Djdz3UUgw@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/AUWE5mKm/$new_jdzz&/" JD_Script/jd.sh
+        sed -i "s/AUWE5mKm/$new_jdzz&/" JDScript/jd.sh
 
 	#crazyJoy任务
         new_crazyJoy="2wgkflmSL-eOLT3n1sPRIKGLdMmSR-i1@uahlHElOqVadmIuLt6yoeg==@wVO5hjOkRcsuqL_wHuhERqt9zd5YaBeE@"
@@ -45,7 +45,7 @@ git clone https://github.com/ITdesk01/JD_Script.git JDScript
 	#京喜农场
         new_jxnc="互助码填写位置@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/019cffd91086/$new_jxnc&/" JD_Script/jd.sh
+        sed -i "s/019cffd91086/$new_jxnc&/" JDScript/jd.sh
 	
 	#签到领现金
         new_jdcash="95OquUc_sFugJO5_E_2dAgm-@eU9YELv7P4thhw6utCVw@eU9YaOjnbvx1-Djdz3UUgw@"
