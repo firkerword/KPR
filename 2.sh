@@ -44,9 +44,19 @@ cd ..
         new_jdbook="互助码填写位置@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/d6d73edddaa64cbd/$new_jdbook&/" JD_Script/jd.sh
-
+	
 	#京喜农场
         new_jxnc="互助码填写位置@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/019cffd91086/$new_jxnc&/" JD_Script/jd.sh
+	
+	#签到领现金
+        new_jdcash="互助码填写位置@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/eU9Ya-iyZ68kp/$new_jdcash&/" JD_Script/jd.sh
+	
+	##工业爱消除
+        new_jdgyec="互助码填写位置@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/743359/$new_jdgyec&/" JD_Script/jd.sh
 
