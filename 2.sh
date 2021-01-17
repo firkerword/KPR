@@ -51,7 +51,7 @@ cd ..
         sed -i "s/019cffd91086/$new_jxnc&/" JD_Script/jd.sh
 	
 	#签到领现金
-        new_jdcash="互助码填写位置@"
+        new_jdcash="95OquUc_sFugJO5_E_2dAgm-@eU9YELv7P4thhw6utCVw@eU9YaOjnbvx1-Djdz3UUgw@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/eU9Ya-iyZ68kp/$new_jdcash&/" JD_Script/jd.sh
 	
