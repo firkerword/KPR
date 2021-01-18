@@ -40,7 +40,7 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/rHYmFm9wQ/$new_crazyJoy&/" JD_Script/jd.sh
 
 	#口袋书店
-        new_jdbook="互助码@"
+        new_jdbook="2c25276cb61741d98f767884856ebcd4@f68cdec737564d929946ff64c76374cb@1ebabd3990a3499daab4397d09cd723b@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/d6d73edddaa64cbd/$new_jdbook&/" JD_Script/jd.sh
 	
@@ -60,6 +60,6 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/743359/$new_jdgyec&/" JD_Script/jd.sh
 
 	#京东炸年兽
-        new_jdnian="互助码@"
+        new_jdnian="cgxZ--kf8RFXPKlP3YUDN9N7qbopP-VtOxRA57Cp3GReD-a9yJi3ezZDqwBUqZz5@cgxZdTXtWO2Ts3mOfmXSkLTAnQUGuJKjSoHMwahkfs9SUuxc0x0N4sU@cgxZdTXtIL6P4g6aAVOh6xbLlZJoC29uIGgW846gj3vFI7ZqODDgGU6gAwA@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/cgxZdTXtI77a6/$new_jdnian&/" JD_Script/jd.sh
