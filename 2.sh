@@ -20,7 +20,7 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/4npkonns/$new_plantBean&/" JD_Script/jd.sh
 
 	#京喜工厂
-        new_dreamFactory="X2poJVLcLoygZX0TgGmkl8EiBIkQe_zrMAZqtgL24-M=@"
+        new_dreamFactory="X2poJVLcLoygZX0TgGmkl8EiBIkQe_zrMAZqtgL24-M=@5MIEocu93aHBEq_1DLOFFA==@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/4HL35B/$new_dreamFactory&/" JD_Script/jd.sh
 
@@ -45,7 +45,7 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/d6d73edddaa64cbd/$new_jdbook&/" JD_Script/jd.sh
 	
 	#京喜农场
-        new_jxnc="互助码@"
+        new_jxnc="6210b7cb41e01b14d92b2d91eed78384@9455922013cf0f704ee6fc9416ec05df@df0165aa52755c3a5337bc789552d9a8@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/019cffd91086/$new_jxnc&/" JD_Script/jd.sh
 	
@@ -54,8 +54,12 @@ cp -r ./JDScript/* ./JD_Script
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/eU9Ya-iyZ68kp/$new_jdcash&/" JD_Script/jd.sh
 	
-	##工业爱消除
-        new_jdgyec="互助码@"
+	#工业爱消除
+        new_jdgyec="1900455@2771801@2771913@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/743359/$new_jdgyec&/" JD_Script/jd.sh
 
+	#京东炸年兽
+        new_jdnian="互助码@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/cgxZdTXtI77a6/$new_jdnian&/" JD_Script/jd.sh
