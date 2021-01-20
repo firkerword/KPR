@@ -63,3 +63,8 @@ cp -r ./JDScript/* ./JD_Script
         new_jdnian="cgxZ--kf8RFXPKlP3YUDN9N7qbopP-VtOxRA57Cp3GReD-a9yJi3ezZDqwBUqZz5@cgxZdTXtWO2Ts3mOfmXSkLTAnQUGuJKjSoHMwahkfs9SUuxc0x0N4sU@cgxZdTXtIL6P4g6aAVOh6xbLlZJoC29uIGgW846gj3vFI7ZqODDgGU6gAwA@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/cgxZdTXtI77a6/$new_jdnian&/" JD_Script/jd.sh
+
+	#京东神仙书院
+        new_jdimmortal="46xIs4YwE5Z7G9g7VXXVQVAj1XaPuxnp42KWW3VHkbUCSyjZA_0yPE-_eWZkyLRGQewhtvF47@40xIs4YwE5Z7DsWOzDQEvxJW4_Gu_rEEGejqss1NHaWcZB9uhMa1knD7NF3t1DS@43xIs4YwE5Z7DsWOzDSFeBVdsn8wMSAqZUdmm4Ino9y4jMcZB9wkAGhz4L9-SqwpvWCg@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/43xIs4YwE5Z7DsW/$new_jdimmortal&/" JD_Script/jd.sh
