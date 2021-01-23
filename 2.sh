@@ -67,4 +67,4 @@ cp -r ./JDScript/* ./JD_Script
 	#京东神仙书院
         new_jdimmortal="46xIs4YwE5Z7G9g7VXXVQVAj1XaPuxnp42KWW3VHkbUCSyjZA_0yPE-_eWZkyLRGQewhtvF47@40xIs4YwE5Z7DsWOzDQEvxJW4_Gu_rEEGejqss1NHaWcZB9uhMa1knD7NF3t1DS@43xIs4YwE5Z7DsWOzDSFeBVdsn8wMSAqZUdmm4Ino9y4jMcZB9wkAGhz4L9-SqwpvWCg@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/43xIs4YwE5Z7DsWO/$new_jdimmortal&/" JD_Script/jd.sh
+        sed -i "s/43xIs4YwE5Z7DsWOzDSL_9C/$new_jdimmortal&/" JD_Script/jd.sh
