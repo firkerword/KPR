@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-git clone https://github.com/ITdesk01/JD_Script.git JDScript
-git clone https://github.com/firkerword/JD_Script.git
+git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
+git clone -b main https://github.com/firkerword/JD_Script.git
 cp -r ./JDScript/* ./JD_Script
 
 	#京东农场
