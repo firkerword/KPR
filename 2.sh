@@ -79,5 +79,8 @@ cp -r ./JDScript/* ./JD_Script
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/11875cff-d5d6/$new_jdfestival&/" JD_Script/jd.sh
 	
-	
+	#京东超级盒子
+        new_jdbox="AdK-E_nAYUm7Nif1o_P9Kz1_IjelEIX3XMR9kLhjkUo@kRUZgiHAG6MH3MbxEmHu7A@Wlnddn9-EST-tViwpRvedoseTzAkJjfBHBqsVhkxBiQ@paajDEtwEBWELjmcQ70f_PEh-JCPmgvF2XktOJIVKk8@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/NLQlCreLH6IcZX7/$new_jdbox&/" JD_Script/jd.sh
 	
