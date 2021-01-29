@@ -2,6 +2,7 @@
 #
 git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
 git clone -b main https://github.com/firkerword/JD_Script.git
+rm -rf ./JDScript/README.md
 cp -r ./JDScript/* ./JD_Script
 
 	#京东农场
