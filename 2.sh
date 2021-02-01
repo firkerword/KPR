@@ -85,7 +85,7 @@ cp -r ./JDScript/* ./JD_Script
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/NLQlCreLH6IcZX7/$new_jdbox&/" JD_Script/jd.sh
 	
-		#京东压岁钱  
+	#京东压岁钱  
         new_jdnewYearMoney="Lhqsjk3FdizR1mKb7z7-K7Njx8Kx5kXkHhkgRBuL4oTCmFIWhfg@oMZeJ7EB-fwQdYJKSOYTs4Kn6PZYLirnNY34RGSlK_xwM2Q@oMZeX-IdqIsECrQ5M7Z3qtyub2RMkdQpvPkkptGu6dFpTWFk@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/oMZeXOJIodhVV-Y/$new_jdnewYearMoney&/" JD_Script/jd.sh
