@@ -66,7 +66,7 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/cgxZdTXtI77a6/$new_jdnian&/" JD_Script/jd.sh
 
 	#京东炸年兽pk
-        new_jdnianpk="IgNWdiLGaPYOYpMco4h_SP7HuWxIp1taps3bO2MpExLpVfOzrHtAAS2hWRDy4ekwQb7FiA@IgNWdiLGaPaAvmG1X0zwmBiKl4F-BlwscXg1KDfdx3O-gs0-osIS9_O5ZAGt-Q@
+        new_jdnianpk="IgNWdiLGaPYOYpMco4h_SP7HuWxIp1taps3bO2MpExLpVfOzrHtAAS2hWRDy4ekwQb7FiA@IgNWdiLGaPaAvmG1X0zwmBiKl4F-BlwscXg1KDfdx3O-gs0-osIS9_O5ZAGt-Q@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/IgNWdiLGaPaAvmHODAWovAEQf5WnHYwnEopqHDyPxTd/$new_jdnianpk&/" JD_Script/jd.sh
 
