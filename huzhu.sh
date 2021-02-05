@@ -1,5 +1,7 @@
 #!/bin/sh
 #
+sed -i '/JD_Script/i\2 22 * * * /usr/share/JD_Script/huzhu.sh' /etc/crontabs/root
+
 	#京东农场
         new_fruit="互助码填写位置"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
