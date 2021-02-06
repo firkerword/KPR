@@ -59,26 +59,11 @@ cp -r ./JDScript/* ./JD_Script
         new_jdgyec="1900455@2771801@2771913@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/743359/$new_jdgyec&/" JD_Script/jd.sh
-
-	#京东神仙书院
-        new_jdimmortal="46xIs4YwE5Z7G9g7VXXVQVAj1XaPuxnp42KWW3VHkbUCSyjZA_0yPE-_eWZkyLRGQewhtvF47@40xIs4YwE5Z7DsWOzDQEvxJW4_Gu_rEEGejqss1NHaWcZB9uhMa1knD7NF3t1DS@43xIs4YwE5Z7DsWOzDSFeBVdsn8wMSAqZUdmm4Ino9y4jMcZB9wkAGhz4L9-SqwpvWCg@"
-        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/43xIs4YwE5Z7DsWOzDSL_9C/$new_jdimmortal&/" JD_Script/jd.sh
 	
 	#闪购盲盒
         new_jdsgmh="T024anXulbWUI_NR9ZpeTHmEoPlACjVWmIaW5kRrbA@T0205KkcPElQrCOQVnqP66FpCjVWmIaW5kRrbA@T0225KkcRBpM_VSEKUz8kPENIQCjVWmIaW5kRrbA@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/T0225KkcRxoZ9Af/$new_jdsgmh&/" JD_Script/jd.sh
-	
-	#京东手机年终奖
-        new_jdfestival="a1f4425f-8c39-471e-8689-0dd9af382045@a2538c1d-a045-4ea0-98ba-d8962796c097@753c15e6-ca43-4df0-99d2-08a3e8789bf3@"
-        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/11875cff-d5d6/$new_jdfestival&/" JD_Script/jd.sh
-	
-	#京东超级盒子
-        new_jdbox="AdK-E_nAYUm7Nif1o_P9Kz1_IjelEIX3XMR9kLhjkUo@kRUZgiHAG6MH3MbxEmHu7A@Wlnddn9-EST-tViwpRvedoseTzAkJjfBHBqsVhkxBiQ@paajDEtwEBWELjmcQ70f_PEh-JCPmgvF2XktOJIVKk8@"
-        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/NLQlCreLH6IcZX7/$new_jdbox&/" JD_Script/jd.sh
 	
 	#京东压岁钱  
         new_jdnewYearMoney="Lhqsjk3FdizR1mKb7z7-K7Njx8Kx5kXkHhkgRBuL4oTCmFIWhfg@oMZeJ7EB-fwQdYJKSOYTs4Kn6PZYLirnNY34RGSlK_xwM2Q@oMZeX-IdqIsECrQ5M7Z3qtyub2RMkdQpvPkkptGu6dFpTWFk@"
