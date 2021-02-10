@@ -70,4 +70,9 @@ cp -r ./JDScript/* ./JD_Script
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/oMZeXOJIodhVV-Y/$new_jdnewYearMoney&/" JD_Script/jd.sh
 
+	#环球挑战赛
+        new_jdglobal="cG90S2ZvL08rRkpWMFdjMHEyVW9Ta1hrTlorVTF0aTVQU1NrUG5SaHhtZz0=@a1NGVHVxNHRyblBCZEp2dGhIdWNRQT09@SHdSZG13MEUrRUEwakdMalZYVW5wVnVvWDBzSHU5aFBXMGxqc2ZQUnY5VT0=@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/UGJmYjF5bkViaURrQnBt/$new_jdglobal&/" JD_Script/jd.sh
+	
 	
