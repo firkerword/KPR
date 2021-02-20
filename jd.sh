@@ -5,7 +5,7 @@ opkg update
 
 opkg install git git-http node node-npm
 
-npm install -g crypto-js got http-server tough-cookie download request tunnel qrcode-terminal
+npm install -g crypto-js got http-server tough-cookie download request tunnel qrcode-terminal websocket
 
 git clone -b main https://github.com/firkerword/JD_Script.git /usr/share/JD_Script
 
