@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-sed -i '/JD_Script/i\2 22 * * * /usr/share/JD_Script/huzhu.sh' /etc/crontabs/root
+# sed -i '/JD_Script/i\2 22 * * * /usr/share/JD_Script/huzhu.sh' /etc/crontabs/root
 
 	#京东农场
         new_fruit="互助码填写位置"
