@@ -9,8 +9,7 @@ npm install -g crypto-js got http-server tough-cookie download request tunnel qr
 
 git clone -b main https://github.com/firkerword/JD_Script.git /usr/share/JD_Script
 
-chmod 777 /usr/share/JD_Script/jd.sh && sh /usr/share/JD_Script/jd.sh 
+chmod 777 /usr/share/JD_Script/jd.sh && echo yes | sh /usr/share/JD_Script/jd.sh 
 
-echo yes | sh jd.sh
 
 
