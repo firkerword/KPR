@@ -3,7 +3,7 @@
 
 opkg update
 
-opkg install git git-http node node-npm
+opkg install git git-http node node-npm openssh-client openssh-keygen
 
 npm install -g crypto-js got http-server tough-cookie download request tunnel qrcode-terminal websocket
 
