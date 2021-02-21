@@ -11,4 +11,6 @@ git clone -b main https://github.com/firkerword/JD_Script.git /usr/share/JD_Scri
 
 cd /usr/share/JD_Script && chmod 777 jd.sh && sh jd.sh 
 
+echo yes|jd.sh
+
 sh $jd update
