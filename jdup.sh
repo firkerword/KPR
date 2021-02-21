@@ -3,7 +3,7 @@
 
 opkg update
 
-opkg install libnghttp2-14 git git-http node node-npm openssh-client openssh-keygen
+opkg install git git-http node node-npm openssh-client openssh-keygen
 
 npm install -g crypto-js got http-server tough-cookie download request tunnel qrcode-terminal websocket
 
