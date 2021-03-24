@@ -26,7 +26,7 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/4HL35B/$new_dreamFactory&/" JD_Script/jd.sh
 
 	#东东工厂
-        new_jdfactory="T024anXulbWUI_NR9ZpeTHmEoPlACjVWnYaS5kRrbA@"
+        new_jdfactory="T024anXulbWUI_NR9ZpeTHmEoPlACjVWnYaS5kRrbA@T0225KkcRBpM_VSEKUz8kPENIQCjVWnYaS5kRrbA@T0205KkcPElQrCOQVnqP66FpCjVWnYaS5kRrbA@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/P04z54XCjVWnYaS5m9cZ2f83X0Zl/$new_jdfactory&/" JD_Script/jd.sh
 
