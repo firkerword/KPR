@@ -1,3 +1,16 @@
+
+clear
+
+echo "
+     ____.__                   .___                     
+    |    |__| ____    ____   __| _/____   ____    ____  
+    |    |  |/    \  / ___\ / __ |/  _ \ /    \  / ___\ 
+/\__|    |  |   |  \/ /_/  > /_/ (  <_> )   |  \/ /_/  >
+\________|__|___|  /\___  /\____ |\____/|___|  /\___  / 
+                 \//_____/      \/           \//_____/ 
+                                                                                                  
+"
+
 opkg update
 
 opkg install libnghttp214 git git-http node node-npm openssh-client openssh-keygen python3
