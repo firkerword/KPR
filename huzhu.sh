@@ -72,10 +72,10 @@
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/RcIQCjVWmIaW5kRrbA/&$new_jdsgmh/" /usr/share/jd_openwrt_script/JD_Script/jd.sh
 
-	#京东手机年终奖
-        new_jdfestival="互助码填写位置"
+	#城城分现金
+        new_cc="互助码填写位置"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/af03-6a4cd00f94ec/&$new_jdfestival/" /usr/share/jd_openwrt_script/JD_Script/jd.sh
+        sed -i "s/N15EGbxpkR8Hbii5cgoyTbfmdQ/&$new_cc/" /usr/share/jd_openwrt_script/JD_Script/jd.sh
 
 
 
