@@ -71,6 +71,6 @@ cp -r ./JDScript/* ./JD_Script
         sed -i "s/UGJmYjF5bkViaURrQnBt/$new_jdglobal&/" JD_Script/jd.sh
 	
 	#城城分现金
-        new_cc="yA14HUcpl60lqwMwz1q9Ath0TJZGZJaiggXDQHv5Jvt6FTlDFtFx@RtGKtLvtGH3kCOPhaIJQmuiyd-flkynvTBf-d-r0MV_rt2-f@RtGKzOjxSQrwd9WSE9I0g3038GeOvTcUJm5WJvgafs44wjUGig@"
+        new_cc="yA14HUcpl60lqwMwz1q9Ath0TJZGZJaiggXDQHv5Jvt6FTlDFtFx@RtGKtLvtGH3kCOPhaIJQmuiyd-flkynvTBf-d-r0MV_rt2-f@RtGKzOjxSQrwd9WSE9I0g3038GeOvTcUJm5WJvgafs44wjUGig@RtGKzu_2FwiiLYuZFtw01xSvrB-HuUEgE5LT3P2Kw4NpSfFWWA@RtGKzOWnQwPxeNefHtM309LeOcgmvJAhqMiaAxCsakLCmTAuHg@RtGKz--mRwmlfNHOQ4Vl04WNzI1eNfWttLYZZhez82Z1NDXNTQ@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/RtGKz-ikQFmhKoeeRddlgy5f/$new_cc&/" JD_Script/jd.sh
