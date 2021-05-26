@@ -55,10 +55,10 @@ cp -r ./JDScript/* ./JD_Script
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/eU9Ya-iyZ68kp/$new_jdcash&/" JD_Script/jd.sh
 	
-	#工业爱消除
-        new_jdgyec="1900455@2771801@2771913@"
+	#618动物联盟
+        new_zoo="ZXTKT024anXulbWUI_NR9ZpeTHmEoPlAFjRWn6-7zx55awQ@ZXTKT0205KkcPElQrCOQVnqP66FpFjRWn6-7zx55awQ@ZXTKT0225KkcRBpM_VSEKUz8kPENIQFjRWn6-7zx55awQ@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/743359/$new_jdgyec&/" JD_Script/jd.sh
+        sed -i "s/sSKNX-MpqKOJsNu/$new_zoo&/" JD_Script/jd.sh
 	
 	#闪购盲盒
         new_jdsgmh="T024anXulbWUI_NR9ZpeTHmEoPlACjVWmIaW5kRrbA@T0205KkcPElQrCOQVnqP66FpCjVWmIaW5kRrbA@T0225KkcRBpM_VSEKUz8kPENIQCjVWmIaW5kRrbA@"
