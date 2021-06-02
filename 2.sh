@@ -40,10 +40,15 @@ sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/rHYmFm9wQ/$new_crazyJoy&/" JD_Script/jd.sh
 
-	#口袋书店
-        new_jdbook="2c25276cb61741d98f767884856ebcd4@f68cdec737564d929946ff64c76374cb@1ebabd3990a3499daab4397d09cd723b@"
+	#动物联盟
+        new_zoo="ZXTKT024anXulbWUI_NR9ZpeTHmEoPlAFjRWn6-7zx55awQ@ZXTKT0205KkcPElQrCOQVnqP66FpFjRWn6-7zx55awQ@ZXTKT0225KkcRh1Lo1bWcxL3lf8NdQFjRWn6-7zx55awQ@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/d6d73edddaa64cbd/$new_jdbook&/" JD_Script/jd.sh
+        sed -i "s/ZXTKT024anXulbWUI_NR9ZpeTHmEoPlACj/$new_zoo&/" JD_Script/jd.sh
+	
+	#动物联盟PK
+        new_zoopk="sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3Qfku52mo3eG27c-bATrNBHSnpWFSq_hQ@sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3QfHDKEM3F4WhzJlmCFkUZMa_rTcg@sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3QfHDKESyKGUmQpAdf-Tp33nr5WuKo@"
+        #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
+        sed -i "s/sSKNX-MpqKObp_DwnJu2B/$new_zoopk&/" JD_Script/jd.sh
 	
 	#京喜农场
         new_jxnc="6210b7cb41e01b14d92b2d91eed78384@9455922013cf0f704ee6fc9416ec05df@df0165aa52755c3a5337bc789552d9a8@"
