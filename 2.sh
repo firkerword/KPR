@@ -43,7 +43,7 @@ sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
 	#动物联盟
         new_zoo="ZXTKT024anXulbWUI_NR9ZpeTHmEoPlAFjRWn6-7zx55awQ@ZXTKT0205KkcPElQrCOQVnqP66FpFjRWn6-7zx55awQ@ZXTKT0225KkcRh1Lo1bWcxL3lf8NdQFjRWn6-7zx55awQ@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/ZXTKT024anXulbWUI_NR9ZpeTHmEoPlACj/$new_zoo&/" JD_Script/jd.sh
+        sed -i "s/ZXTKT0225KkcRxoZ9AfVdB7wxvRcIQFjR/$new_zoo&/" JD_Script/jd.sh
 	
 	#动物联盟PK
         new_zoopk="sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3Qfku52mo3eG27c-bATrNBHSnpWFSq_hQ@sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3QfHDKEM3F4WhzJlmCFkUZMa_rTcg@sSKNX-MpqKOJsNvEztKAc5H2E9LVXPzyA3QfHDKESyKGUmQpAdf-Tp33nr5WuKo@"
