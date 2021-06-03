@@ -65,10 +65,10 @@ sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/T0225KkcRxoZ9Af/$new_jdsgmh&/" JD_Script/jd.sh
 
-	#环球挑战赛
-        new_jdglobal="cG90S2ZvL08rRkpWMFdjMHEyVW9Ta1hrTlorVTF0aTVQU1NrUG5SaHhtZz0=@a1NGVHVxNHRyblBCZEp2dGhIdWNRQT09@SHdSZG13MEUrRUEwakdMalZYVW5wVnVvWDBzSHU5aFBXMGxqc2ZQUnY5VT0=@"
+	#明星商店
+        new_jdss="Ap5_KQYFx2OrXRqHM1TPL3_afnNsJWQ5igvlJ-mfKnI@a1NGVHVxNHRyblBCZEp2dGhIdWNRQT09@SHdSZG13MEUrRUEwakdMalZYVW5wVnVvWDBzSHU5aFBXMGxqc2ZQUnY5VT0=@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/UGJmYjF5bkViaURrQnBt/$new_jdglobal&/" JD_Script/jd.sh
+        sed -i "s/UGJmYjF5bkViaURrQnBt/$new_jdss&/" JD_Script/jd.sh
 	
 	#城城分现金
         new_cc="yA14HUcpl60lqwMwz1q9Ath0TJZGZJaiggXDQHv5Jvt6FTlDFtFx@RtGKtLvtGH3kCOPhaIJQmuiyd-flkynvTBf-d-r0MV_rt2-f@RtGKzOjxSQrwd9WSE9I0g3038GeOvTcUJm5WJvgafs44wjUGig@RtGKzu_2FwiiLYuZFtw01xSvrB-HuUEgE5LT3P2Kw4NpSfFWWA@RtGKzOWnQwPxeNefHtM309LeOcgmvJAhqMiaAxCsakLCmTAuHg@RtGKz--mRwmlfNHOQ4Vl04WNzI1eNfWttLYZZhez82Z1NDXNTQ@"
