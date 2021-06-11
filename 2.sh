@@ -3,7 +3,7 @@
 git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
 git clone -b main https://github.com/firkerword/JD_Script.git
 rm -rf ./JDScript/README.md
-# rm -rf ./JDScript/JSON/zoo.txt
+rm -rf ./JDScript/JSON/zoo.txt
 cp -r ./JDScript/* ./JD_Script
 sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
 	#京东农场
