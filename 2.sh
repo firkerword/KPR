@@ -72,7 +72,7 @@ sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
         sed -i "s/VYlzzuDz-Y8seOROZFxje-gusZ0qMCA/$new_jdss&/" JD_Script/jd.sh
 	
 	#全民挖现金
-        new_wxj="2D521ACE2B8F98C739D04047C9BA90FF11F666E9BB07D39A4234F24002978029"
+        new_wxj="2D521ACE2B8F98C739D04047C9BA90FF11F666E9BB07D39A4234F24002978029@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/D865D7C046B3594455D/$new_wxj&/" JD_Script/jd.sh
 	
