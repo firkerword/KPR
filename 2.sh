@@ -66,10 +66,11 @@ sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/T0225KkcRxoZ9Af/$new_jdsgmh&/" JD_Script/jd.sh
 
-	#明星商店
-        new_jdss="Ap5_KQYFx2OrXRqHM1TPL3_afnNsJWQ5igvlJ-mfKnI@CXafdU6tKsdt11G6DMpXnA@OyvDBjSDMv-C64g3En4moXyHqz9xFr_ukU3EkW3c_SM@"
+	
+	#全民挖现金
+        new_wxj="2D521ACE2B8F98C739D04047C9BA90FF11F666E9BB07D39A4234F24002978029@CC13A565A40EA41F45137D445B803109@AF5DE5530ECFB07364268B9DBC6BCB3CAD1DAAB9A3E3F6CBAFDE81EEB7393333@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
-        sed -i "s/VYlzzuDz-Y8seOROZFxje-gusZ0qMCA/$new_jdss&/" JD_Script/jd.sh
+        sed -i "s/D865D7C046B3594455D/$new_wxj&/" JD_Script/jd.sh
 	
 	#城城分现金
         new_cc="yA14HUcpl60lqwMwz1q9Ath0TJZGZJaiggXDQHv5Jvt6FTlDFtFx@RtGKtLvtGH3kCOPhaIJQmuiyd-flkynvTBf-d-r0MV_rt2-f@RtGKzOjxSQrwd9WSE9I0g3038GeOvTcUJm5WJvgafs44wjUGig@RtGKzu_2FwiiLYuZFtw01xSvrB-HuUEgE5LT3P2Kw4NpSfFWWA@RtGKzOWnQwPxeNefHtM309LeOcgmvJAhqMiaAxCsakLCmTAuHg@RtGKz--mRwmlfNHOQ4Vl04WNzI1eNfWttLYZZhez82Z1NDXNTQ@"
