@@ -18,7 +18,7 @@ echo "
 
 opkg update
 
-opkg install libnghttp214 git git-http openssh-client openssh-keygen python3
+opkg install node node node-npm libnghttp214 git git-http openssh-client openssh-keygen python3
 
 cd /etc/init.d
 
