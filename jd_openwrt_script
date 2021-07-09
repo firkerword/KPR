@@ -67,7 +67,7 @@ start() {
 	if [ -e Checkjs ];then
 		echo -e "$green Checkjs已存在$white"
 	else
-		git clone https://firkerword/ITdesk01/Checkjs.git && Detect
+		git clone https://github.com/firkerword/Checkjs.git && Detect
 		chmod 755 Checkjs/checkjs.sh
 		sh Checkjs/checkjs.sh system_variable
 	fi
