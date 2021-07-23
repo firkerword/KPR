@@ -3,10 +3,10 @@
 git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
 git clone -b main https://github.com/firkerword/JD_Script.git
 rm -rf ./JDScript/README.md
+rm -rf ./JDScript/js/jd_cfd_loop.js
 # sed -i “/jd_cfd_loop/d” ./JDScript/jd.sh
 # rm -rf ./JDScript/JSON/zoo.txt
 cp -r ./JDScript/* ./JD_Script
-# sed -i "s/c/c/g" JD_Script/jd.sh
 sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
 	#京东农场
         new_fruit="0763443f7d6f4f5ea5e54adc1c6112ed@e61135aa1963447fa136f293a9d161c1@f9e6a916ad634475b8e77a7704b5c3d8@713f6d7bd3084b4eb157375e119ef521@"
