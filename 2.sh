@@ -4,7 +4,7 @@ git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
 git clone -b main https://github.com/firkerword/JD_Script.git
 rm -rf ./JDScript/README.md
 # rm -rf ./JDScript/js/jd_cfd_loop.js
-sed -i “/cfd_loop/d” ./JDScript/jd.sh
+sed -i "/cfd_loop/d" ./JDScript/jd.sh
 # rm -rf ./JDScript/JSON/zoo.txt
 cp -r ./JDScript/* ./JD_Script
 sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
