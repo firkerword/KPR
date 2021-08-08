@@ -4,7 +4,9 @@ git clone -b main https://github.com/ITdesk01/JD_Script.git JDScript
 git clone -b main https://github.com/firkerword/JD_Script.git
 rm -rf ./JDScript/README.md
 # sed -i "/jd.sh run_jd_cash/d" ./JDScript/jd.sh
-sed -i "s/0,1,2,5,6/6,0,1,2/g" JD_Script/jd.sh
+oldtime="59 23 * * 0,1,2,5,6"
+newtime="59 23 * * 6,0,1,2"
+sed -i "s/$oldtime/$newtime/g" JD_Script/jd.sh
 # rm -rf ./JDScript/JSON/zoo.txt
 cp -r ./JDScript/* ./JD_Script
 sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
