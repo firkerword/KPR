@@ -11,7 +11,7 @@ cp -r ./JDScript/* ./JD_Script
 sed -i "s/ITdesk01/firkerword/g" JD_Script/jd.sh
 
 	#京东农场
-        new_fruit="0763443f7d6f4f5ea5e54adc1c6112ed@e61135aa1963447fa136f293a9d161c1@f9e6a916ad634475b8e77a7704b5c3d8@713f6d7bd3084b4eb157375e119ef521@"
+        new_fruit="0763443f7d6f4f5ea5e54adc1c6112ed@e61135aa1963447fa136f293a9d161c1@f9e6a916ad634475b8e77a7704b5c3d8@713f6d7bd3084b4eb157375e119ef521@feb6c95e51904d80bf492cebbf3717e3@5d12342074a24ccdad4f5a26f8d3456a@"
         #互助码填写格式：@+互助码    例如：@sd452a41ds2af1a1
         sed -i "s/6632c8135/$new_fruit&/" JD_Script/jd.sh
 
