@@ -23,7 +23,11 @@ start() {
 	echo ""
 	echo " 脚本用法请到github查看说明"
 	echo "-------------------------------------------"
-	echo -e "$green 执行脚本安装，请稍等$white" && sleep 2
+	echo -e "$green 执行脚本安装，请稍等$white"
+	echo -e "$green 如果有问题，可以采用底下代码手动安装 $white"
+	echo -e "$green /etc/init.d/jd_openwrt_script stop $white"
+	echo -e "$green /etc/init.d/jd_openwrt_script start $white"
+	sleep 5m
 
 	#创建主文件
 	if [ -e $dir_file ];then
