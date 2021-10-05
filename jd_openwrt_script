@@ -23,6 +23,7 @@ start() {
 	echo ""
 	echo " 脚本用法请到github查看说明"
 	echo "-------------------------------------------"
+	echo -e "$green 执行脚本安装，请稍等$white" && sleep 2
 
 	#创建主文件
 	if [ -e $dir_file ];then
