@@ -15,10 +15,15 @@ echo "
 
                                                                                                   
 "
+wget https://gitee.com/firkerword/node/raw/master/node_v14.17.4-1_x86_64.ipk
+
+wget https://gitee.com/firkerword/node/raw/master/node-npm_v14.17.4-1_x86_64.ipk
+
+
 
 opkg update
 
-opkg install node node-npm git git-http python3
+opkg install git git-http python3
 
 cd /etc/init.d
 
