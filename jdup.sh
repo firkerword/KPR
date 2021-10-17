@@ -15,11 +15,11 @@ echo "
 
                                                                                                   
 "
-wget https://gitee.com/firkerword/node/raw/master/node_v14.17.4-1_x86_64.ipk
+wget https://github.com/firkerword/KPR/releases/download/v14.17.4/node_v14.17.4-1_x86_64.ipk
 
-wget https://gitee.com/firkerword/node/raw/master/node-npm_v14.17.4-1_x86_64.ipk
+wget https://github.com/firkerword/KPR/releases/download/v14.17.4/node-npm_v14.17.4-1_x86_64.ipk
 
-
+opkg install node_v14.17.4-1_x86_64.ipk node-npm_v14.17.4-1_x86_64.ipk
 
 opkg update
 
