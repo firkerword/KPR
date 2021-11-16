@@ -23,7 +23,7 @@ opkg install node_v14.17.4-1_x86_64.ipk node-npm_v14.17.4-1_x86_64.ipk
 
 opkg update
 
-opkg install git git-http python3
+opkg install git git-http openssh-client openssh-keygen python3
 
 cd /etc/init.d
 
