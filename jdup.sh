@@ -19,11 +19,13 @@ wget https://github.com/firkerword/KPR/releases/download/v14.17.4/node_v14.17.4-
 
 wget https://github.com/firkerword/KPR/releases/download/v14.17.4/node-npm_v14.17.4-1_x86_64.ipk
 
-opkg install node_v14.17.4-1_x86_64.ipk node-npm_v14.17.4-1_x86_64.ipk
+wget https://github.com/firkerword/KPR/releases/download/v14.17.4/python3_3.9.5-2_x86_64.ipk
+
+opkg install node_v14.17.4-1_x86_64.ipk node-npm_v14.17.4-1_x86_64.ipk python3_3.9.5-2_x86_64.ipk
 
 opkg update
 
-opkg install git git-http openssh-client openssh-keygen=3.9.5 python3=3.9.5
+opkg install git git-http openssh-client openssh-keygen
 
 cd /etc/init.d
 
