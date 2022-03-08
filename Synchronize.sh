@@ -6,4 +6,6 @@ rm -rf ./smartdns/.svn
 
 git clone https://github.com/firker/diy-ziyong.git
 
+rm -rf ./diy-ziyong/smartdns/.svn
+
 cp -r ./smartdns ./diy-ziyong
