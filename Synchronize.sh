@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns
+svn co https://github.com/kiddin9/openwrt-packages/trunk/smartdns
 
 rm -rf ./smartdns/.svn
 
