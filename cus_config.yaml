@@ -116,6 +116,6 @@ plugin:
     args:
       ip:
         # 使用默认geoip.dat文件
-        # - "ext:./geoip.dat:cn"
+        - "ext:./geoip.dat:cn"
         # 使用高性能cn.dat文件, 需要下载对应的文件
-        - "ext:./cn.dat:cn"
+        # - "ext:./cn.dat:cn"
