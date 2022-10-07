@@ -2,6 +2,8 @@ log:
   level: info
   file: "/tmp/mosdns.log"
 
+include: []
+
 data_providers:
   - tag: geosite
     file: "/usr/share/v2ray/geosite.dat"
