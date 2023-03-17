@@ -87,7 +87,8 @@ plugins:
       upstreams:
         - addr: tls://8.8.4.4
           enable_pipeline: true
-        - addr: https://doh.opendns.com/dns-query
+        - addr: "https://doh.opendns.com/dns-query"
+          bootstrap: 208.67.222.222
           enable_pipeline: true
 
   # 国内解析
