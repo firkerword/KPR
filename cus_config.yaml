@@ -1,48 +1,52 @@
 log:
-  level: info
-  file: "/tmp/mosdns.log"
-
+  level: debug
+  file: "/tmp/mosdns.txt"
+  
+# api:
+#   http: "127.0.0.1:8080" # 在该地址启动 api 接口。
+  
 plugins:
+  # 加载配置
   # 国内域名
   - tag: geosite_cn
     type: domain_set
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/geosite_cn.txt"
-
+  
   # 国内ip
   - tag: geoip_cn
     type: ip_set
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/geoip_cn.txt"
 
   # 国外域名
   - tag: geosite_no_cn
     type: domain_set
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/geosite_no_cn.txt"
 
   # 白名单 加入的域名始终允许使用 “本地 DNS” 进行解析
   - tag: whitelist
     type: domain_set
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/whitelist.txt"
 
   # 黑名单 加入的域名将屏蔽 DNS 解析
   - tag: blocklist
     type: domain_set
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/blocklist.txt"
 
   # 自定义 Hosts 重写
   - tag: hosts
     type: hosts
     args:
-      files:
+      files:                        # 从文本文件载入
         - "/etc/mosdns/rule/hosts.txt"
 
   # 重定向请求的域名
@@ -52,8 +56,8 @@ plugins:
       files:
         - "/etc/mosdns/rule/redirect.txt"
 
-  # PTR 黑名单 加入的域名将阻止 PTR 请求
-  - tag: local_ptr
+  # 广告列表
+  - tag: adlist
     type: domain_set
     args:
       files:
@@ -63,37 +67,33 @@ plugins:
   - tag: cache
     type: cache
     args:
-      size: 200000
+      size: 20480
       lazy_cache_ttl: 259200
+      dump_file: "/etc/mosdns/rule/cache.dump"
+      dump_interval: 600
 
   # 转发至本地服务器
   - tag: forward_local
     type: forward
     args:
       upstreams:
-        - addr: "https://doh.pub/dns-query"
-          bootstrap: 180.76.76.76
         - addr: 119.29.29.29
-
+        - addr: 223.5.5.5
+  
   # 转发至远程服务器
   - tag: forward_remote
     type: forward
     args:
       upstreams:
-        - addr: tls://8.8.8.8
-          enable_pipeline: false
-
-  # 修改ttl
-  - tag: modify_ttl
-    type: sequence
-    args:
-      - exec: ttl 0-0
+        - addr: tls://8.8.4.4
+          enable_pipeline: true
+        - addr: https://doh.opendns.com/dns-query
+          enable_pipeline: true
 
   # 国内解析
   - tag: local_sequence
     type: sequence
     args:
-      - exec: metrics_collector $forward_local
       - exec: $forward_local
 
   # 国外解析
@@ -101,33 +101,28 @@ plugins:
     type: sequence
     args:
       - exec: prefer_ipv4
-      - exec: metrics_collector $forward_remote
       - exec: $forward_remote
-
+  
   # 有响应终止返回
   - tag: has_resp_sequence
     type: sequence
     args:
-      - exec: $modify_ttl
       - matches: has_resp
         exec: accept
 
   # fallback 用本地服务器 sequence
-  # 返回不包含本地 ip 则 reject
   - tag: query_is_local_ip
     type: sequence
     args:
       - exec: $local_sequence
-      - matches: resp_ip $geoip_cn
-        exec: accept
-      - exec: reject
+      - matches: "!resp_ip $geoip_cn"
+        exec: drop_resp
 
   # fallback 用远程服务器 sequence
   - tag: query_is_remote
     type: sequence
     args:
       - exec: $remote_sequence
-      - exec: accept
 
   # fallback 用远程服务器 sequence
   - tag: fallback
@@ -135,8 +130,9 @@ plugins:
     args:
       primary: query_is_local_ip
       secondary: query_is_remote
-      threshold: 500
-      always_standby: false
+      threshold: 150
+      always_standby: true
+
 
   # 查询国内域名
   - tag: query_is_local_domain
@@ -166,13 +162,14 @@ plugins:
     args:
       - matches: qname $blocklist
         exec: reject 3
+      - matches: qname $adlist
+        exec: reject 3
       - matches:
         - qtype 12
-        - qname $local_ptr
         exec: reject 3
       - matches: qtype 65
         exec: reject 3
-
+  
   # 主要的运行逻辑插件
   # sequence 插件中调用的插件 tag 必须在 sequence 前定义，
   # 否则 sequence 找不到对应插件。
@@ -187,7 +184,6 @@ plugins:
       - exec: $query_is_reject_domain
       - exec: $cache
       - exec: jump has_resp_sequence
-      - exec: jump has_resp_sequence
       - exec: $query_is_local_domain
       - exec: jump has_resp_sequence
       - exec: $query_is_no_local_domain
@@ -199,11 +195,10 @@ plugins:
     type: udp_server
     args:
       entry: main_sequence
-      listen: ":5335"
-
+      listen: "127.0.0.1:5335"
   # 启动 tcp 服务器。
   - tag: tcp_server
     type: tcp_server
     args:
       entry: main_sequence
-      listen: ":5335"
+      listen: "127.0.0.1:5335"
